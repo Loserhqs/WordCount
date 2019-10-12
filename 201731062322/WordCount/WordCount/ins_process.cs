@@ -12,7 +12,9 @@ namespace WordCount
         static string str2 = "-m";
         static string str3 = "-n";
         static string str4 = "-o";
-        public static int ins_select(string[] array, int i)
+        result re2 = new result();
+
+        public int ins_select(string[] array, int i,word_len len,word_more more)
         {
             int flag = 0;
             if (array[i].Equals(str1, StringComparison.OrdinalIgnoreCase) == true)
@@ -22,12 +24,14 @@ namespace WordCount
             }
             else if (array[i].Equals(str2, StringComparison.OrdinalIgnoreCase) == true)
             {
-                result.Word_len = Convert.ToInt32(array[i]);
+                len.Wordlen = Convert.ToInt32(array[i + 1]);
+                //result.WL.Wordlen = Convert.ToInt32(array[i+1]);
                 flag = 2;
             }
             else if (array[i].Equals(str3, StringComparison.OrdinalIgnoreCase) == true)
             {
-                result.Word_more = Convert.ToInt32(array[i + 1]);
+                //result.WM.Wordmore = Convert.ToInt32(array[i + 1]);
+                more.Wordmore = Convert.ToInt32(array[i + 1]);
                 flag = 4;
             }
             else if (array[i].Equals(str4, StringComparison.OrdinalIgnoreCase) == true)
@@ -41,7 +45,7 @@ namespace WordCount
             }
             return flag;
         }
-        public static void ins_right(int x)
+        public void ins_right(int x,word_len len,word_more more)
         {
             if (x > 0)
             {
@@ -54,75 +58,75 @@ namespace WordCount
                 {
                     if (x == 1)
                     {
-                        result.Word_more = 10;
+                        //result.Word_more = 10;
                         file_path.output_path = "output.txt";
                         //result.Word_len = 0;
-                        result.print_char();
-                        result.print_word();
-                        result.print_lines();
-                        result.print_wordsort(result.Word_more);
+                        re2.print_char();
+                        re2.print_word(len);
+                        re2.print_lines();
+                        re2.print_wordsort(more.Wordmore,len);
                     }
                     else if (x == 3)
                     {
-                        result.Word_more = 10;
+                        //result.Word_more = 10;
                         file_path.output_path = "output.txt";
-                        result.print_char();
-                        result.print_word();
-                        result.print_lines();
-                        result.print_wordsort(result.Word_more);
-                        result.print_selectedlong();
+                        re2.print_char();
+                        re2.print_word(len);
+                        re2.print_lines();
+                        re2.print_wordsort(more.Wordmore, len);
+                        re2.print_selectedlong(len.Wordlen );
                     }
                     else if (x == 5)
                     {
                         file_path.output_path = "output.txt";
                         //result.Word_len = 0;
-                        result.print_char();
-                        result.print_word();
-                        result.print_lines();
-                        result.print_wordsort(result.Word_more);
+                        re2.print_char();
+                        re2.print_word(len);
+                        re2.print_lines();
+                        re2.print_wordsort(more.Wordmore, len);
                     }
                     else if (x == 7)
                     {
                         file_path.output_path = "output.txt";
-                        result.print_char();
-                        result.print_word();
-                        result.print_lines();
-                        result.print_wordsort(result.Word_more);
-                        result.print_selectedlong();
+                        re2.print_char();
+                        re2.print_word(len);
+                        re2.print_lines();
+                        re2.print_wordsort(more.Wordmore, len);
+                        re2.print_selectedlong(len.Wordlen);
                     }
                     else if (x == 9)
                     {
-                        result.Word_more = 10;
+                        //result.Word_more = 10;
                         //result.Word_len = 0;
-                        result.print_char();
-                        result.print_word();
-                        result.print_lines();
-                        result.print_wordsort(result.Word_more);
+                        re2.print_char();
+                        re2.print_word(len);
+                        re2.print_lines();
+                        re2.print_wordsort(more.Wordmore, len);
                     }
                     else if (x == 11)
                     {
-                        result.Word_more = 10;
-                        result.print_char();
-                        result.print_word();
-                        result.print_lines();
-                        result.print_wordsort(result.Word_more);
-                        result.print_selectedlong();
+                        //result.Word_more = 10;
+                        re2.print_char();
+                        re2.print_word(len);
+                        re2.print_lines();
+                        re2.print_wordsort(more.Wordmore, len);
+                        re2.print_selectedlong(len.Wordlen);
                     }
                     else if (x == 13)
                     {
                         //result.Word_len = 0;
-                        result.print_char();
-                        result.print_word();
-                        result.print_lines();
-                        result.print_wordsort(result.Word_more);
+                        re2.print_char();
+                        re2.print_word(len);
+                        re2.print_lines();
+                        re2.print_wordsort(more.Wordmore, len);
                     }
                     else
                     {
-                        result.print_char();
-                        result.print_word();
-                        result.print_lines();
-                        result.print_wordsort(result.Word_more);
-                        result.print_selectedlong();
+                        re2.print_char();
+                        re2.print_word(len);
+                        re2.print_lines();
+                        re2.print_wordsort(more.Wordmore, len);
+                        re2.print_selectedlong(len.Wordlen );
                     }
                 }
             }

@@ -52,6 +52,8 @@
     <Compile Include="select_way.cs" />
     <Compile Include="uniform_character.cs" />
     <Compile Include="word_count.cs" />
+    <Compile Include="word_len.cs" />
+    <Compile Include="word_more.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
