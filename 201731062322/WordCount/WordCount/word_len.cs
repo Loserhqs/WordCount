@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WordCount
 {
-    class word_len
+    public class word_len
     {
         private int wordlen;
         public word_len(int wordlen)

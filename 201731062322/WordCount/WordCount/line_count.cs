@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WordCount
 {
-    class line_count
+    public class line_count
     {
         //统计文件的行数
         public static int lines()

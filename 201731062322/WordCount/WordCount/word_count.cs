@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 namespace WordCount
 {
-    class word_count
+    public class word_count
     {
         //打印频数高的单词
         public static int word_sum(Dictionary<string, int> dic)

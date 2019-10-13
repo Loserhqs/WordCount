@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WordCount
 {
-    class select_way
+    public class select_way
     {
         illustration ill2 = new illustration();
         result re1 = new result();

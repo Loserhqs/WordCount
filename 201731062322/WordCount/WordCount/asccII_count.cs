@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WordCount
 {
-    class asccII_count
+    public class asccII_count
     {
         //统计字符的个数
         public static int ascciicount()

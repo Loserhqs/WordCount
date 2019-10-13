@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount", "WordCount\WordCount.csproj", "{A4817DD6-E0D8-4331-ABA6-7D4F51B74D37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_WordCount", "UnitTest_WordCount\UnitTest_WordCount.csproj", "{0F41C9B4-DD92-4F61-8A30-F6EE9D95DBA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{339438B9-DC57-438E-9AD3-D1456E1B1D9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A4817DD6-E0D8-4331-ABA6-7D4F51B74D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4817DD6-E0D8-4331-ABA6-7D4F51B74D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4817DD6-E0D8-4331-ABA6-7D4F51B74D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F41C9B4-DD92-4F61-8A30-F6EE9D95DBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F41C9B4-DD92-4F61-8A30-F6EE9D95DBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F41C9B4-DD92-4F61-8A30-F6EE9D95DBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F41C9B4-DD92-4F61-8A30-F6EE9D95DBA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339438B9-DC57-438E-9AD3-D1456E1B1D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339438B9-DC57-438E-9AD3-D1456E1B1D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339438B9-DC57-438E-9AD3-D1456E1B1D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339438B9-DC57-438E-9AD3-D1456E1B1D9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

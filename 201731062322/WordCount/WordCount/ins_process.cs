@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WordCount
 {
-    class ins_process
+    public class ins_process
     {
         static string str1 = "-l";
         static string str2 = "-m";

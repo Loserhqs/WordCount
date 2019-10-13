@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WordCount
 {
-    class uniform_character
+    public class uniform_character
     {
         //统一字符
         public static string[] uncharater(string[] words, ref int num_word)

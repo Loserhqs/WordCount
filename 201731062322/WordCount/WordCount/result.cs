@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WordCount
 {
-    class result
+    public class result
     {
         /*public int Word_index(int x)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WordCount
 {
-    class illustration
+    public class illustration
     {
         public void illu_function()
         {

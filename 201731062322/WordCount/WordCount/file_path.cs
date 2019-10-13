@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WordCount
 {
-    class file_path
+    public class file_path
     {
         //输入文件路径
         public static string input_path;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WordCount
 {
-    class word_more
+    public class word_more
     {
          private int wordmore;
         public word_more(int wordmore)
